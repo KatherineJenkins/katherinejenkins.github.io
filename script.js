@@ -17,7 +17,7 @@ const setJa = function () {
 
 setJa();
 
-document.querySelector(`.check`).addEventListener(`click`, function () {
+const play = function () {
   const kanske = Number(document.querySelector(`.guess`).value);
 
   document.querySelector(`.again`).addEventListener(`click`, function () {
@@ -54,5 +54,15 @@ document.querySelector(`.check`).addEventListener(`click`, function () {
       displayMessage(`You lost the game loser!`);
       document.querySelector(`.score`).textContent = 0;
     }
+  }
+};
+
+document.querySelector(`.check`).addEventListener(`click`, function () {
+  play();
+});
+
+document.addEventListener(`keydown`, function (event) {
+  if (event.key === `Enter`) {
+    play();
   }
 });
