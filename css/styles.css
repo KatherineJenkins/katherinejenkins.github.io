@@ -1,0 +1,211 @@
+.contact {
+  color: white;
+  font-family: courier;
+}
+
+.about {
+  color: rgb(255, 255, 255);
+  font-family: "Lucida Sans";
+}
+
+body {
+  font-family: roboto;
+  background-image: url("../images/pexels-francesco-ungaro-998641.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: roboto;
+  text-align: center;
+}
+
+/* Header Title */
+.header {
+  text-align: center;
+  padding: 40px;
+  text-align: center;
+  background: #000000;
+  margin: 30px;
+  font-size: 20px;
+}
+
+.header-image {
+  width: 300px;
+  border: 0px;
+}
+
+.profile-image {
+  width: 452px;
+  border: 0;
+}
+
+.header-logo {
+  width: 600px;
+  border: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that float next to each other */
+.column-2 {
+  float: left;
+  width: 45%;
+  padding: 40px;
+  padding-left: 70px;
+  padding-right: 70px;
+  height: 475px;
+  margin: 55px;
+  margin-right: 30px;
+  margin-bottom: 70px;
+  background-color: #743195ac;
+  line-height: 2;
+}
+
+.column-3 {
+  float: left;
+  width: 45%;
+  padding: 40px;
+  padding-left: 70px;
+  padding-right: 70px;
+  height: 475px;
+  margin: 30px;
+  margin-right: 30px;
+  margin-bottom: 70px;
+
+  line-height: 2;
+}
+
+a.contacts:link,
+a.contacts:visited {
+  background-color: #ffff00;
+  color: rgb(0, 0, 0);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.about-me-text {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-family: roboto;
+  text-align: left;
+}
+
+.project-text {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "lucida sans";
+  text-align: center;
+  text-shadow: 2px 2px #000000;
+}
+
+/* Large profile image */
+.large-profile {
+  background-size: cover;
+  background-position: center;
+}
+
+.p-text {
+  padding: 40px;
+  text-align: center;
+  margin: 30px;
+  font-size: 20px;
+  background-color: rgba(126, 126, 126, 0.622);
+}
+
+img {
+  border: 3px solid #fda6ba;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.section-heading {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 150px;
+  margin-bottom: 70px;
+  font-size: 35px;
+  font-family: "lucida sans";
+  text-shadow: 2px 2px #000000;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-div {
+  padding: 10px;
+  text-align: center;
+  background: #57d1fa68;
+  margin: 30px;
+  margin-bottom: 70px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.sc-buttons {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.sc-buttons:hover {
+  border: 3px solid #79c142;
+}
+
+/* Footer */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #54caf2;
+}
+
+.footer-text-left {
+  font-size: 20px;
+  padding-left: 40px;
+  float: left;
+  word-spacing: 20px;
+  margin-top: 10px;
+}
+
+a.menu:link,
+a.menu:visited {
+  color: rgb(0, 0, 0);
+}
+
+a.menu:hover {
+  font-size: 22px;
+  background-color: #fda6ba;
+  color: black;
+}
+
+.footer-content-right {
+  padding-right: 40px;
+  margin-top: 5px;
+  float: right;
+}
+
+.icon-style {
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+  margin-top: 5px;
+  border: 0;
+}
+
+.icon-style:hover {
+  background-color: #fda6ba;
+  padding: 5px;
+}

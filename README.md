@@ -1,7 +1,5 @@
-# katherinejenkins.github.io
+Katherine Jenkins' Programming Portfolio
 
-This is my first game I've built while learning JavaScript.
+I've built this website from scratch to practice my HTML and CSS, as well as showcase my projects created in all languages and frameworks that I am and will be learning. I expect this site to have many versions. And to truly, and deeply amaze you.
 
-It's a very simple game and therefore, very simply exploited.
-
-If you want to copy this code yourself to use, consider making the variables less identifiable so that the number to guess isn't as easy to figure out to the trained eye.
+Best viewed on desktop currently.
